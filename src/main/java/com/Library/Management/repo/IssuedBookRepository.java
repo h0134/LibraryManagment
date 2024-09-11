@@ -1,7 +1,7 @@
-package com.Library.Management.System.Library.Management.System.repo;
+package com.Library.Management.repo;
 
 
-import com.Library.Management.System.Library.Management.System.entity.IssuedBook;
+import com.Library.Management.entity.IssuedBook;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

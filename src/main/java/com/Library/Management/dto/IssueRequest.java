@@ -1,4 +1,4 @@
-package com.Library.Management.System.Library.Management.System.dto;
+package com.Library.Management.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

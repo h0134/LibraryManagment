@@ -1,4 +1,4 @@
-package com.Library.Management.System.Library.Management.System.enumm;
+package com.Library.Management.enumm;
 
 import lombok.Getter;
 import lombok.Setter;

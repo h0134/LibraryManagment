@@ -1,6 +1,6 @@
-package com.Library.Management.System.Library.Management.System.response;
+package com.Library.Management.response;
 
-import com.Library.Management.System.Library.Management.System.enumm.BookStatus;
+import com.Library.Management.enumm.BookStatus;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

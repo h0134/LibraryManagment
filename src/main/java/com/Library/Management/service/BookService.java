@@ -1,22 +1,20 @@
-package com.Library.Management.System.Library.Management.System.service;
-import com.Library.Management.System.Library.Management.System.dto.BookRequest;
-import com.Library.Management.System.Library.Management.System.dto.IssueRequest;
-import com.Library.Management.System.Library.Management.System.dto.ReturnRequest;
-import com.Library.Management.System.Library.Management.System.dto.UserRequest;
-import com.Library.Management.System.Library.Management.System.entity.IssuedBook;
-import com.Library.Management.System.Library.Management.System.entity.Book;
+package com.Library.Management.service;
+import com.Library.Management.dto.BookRequest;
+import com.Library.Management.dto.IssueRequest;
+import com.Library.Management.dto.ReturnRequest;
+import com.Library.Management.dto.UserRequest;
+import com.Library.Management.entity.IssuedBook;
+import com.Library.Management.entity.Book;
 
-import com.Library.Management.System.Library.Management.System.entity.User;
-import com.Library.Management.System.Library.Management.System.enumm.BookStatus;
-import com.Library.Management.System.Library.Management.System.repo.BookRepository;
-import com.Library.Management.System.Library.Management.System.repo.IssuedBookRepository;
-import com.Library.Management.System.Library.Management.System.repo.UserRepository;
-import com.Library.Management.System.Library.Management.System.response.BookResponse;
+import com.Library.Management.entity.User;
+import com.Library.Management.enumm.BookStatus;
+import com.Library.Management.repo.BookRepository;
+import com.Library.Management.repo.IssuedBookRepository;
+import com.Library.Management.repo.UserRepository;
+import com.Library.Management.response.BookResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 import java.util.stream.Collectors;

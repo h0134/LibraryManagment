@@ -1,4 +1,4 @@
-package com.Library.Management.System.Library.Management.System.entity;
+package com.Library.Management.entity;
 
 
 import jakarta.persistence.*;

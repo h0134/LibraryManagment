@@ -1,6 +1,6 @@
-package com.Library.Management.System.Library.Management.System.entity;
+package com.Library.Management.entity;
 
-import com.Library.Management.System.Library.Management.System.enumm.BookStatus;
+import com.Library.Management.enumm.BookStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

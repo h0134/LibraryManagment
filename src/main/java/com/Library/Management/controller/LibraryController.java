@@ -1,8 +1,8 @@
-package com.Library.Management.System.Library.Management.System.controller;
+package com.Library.Management.controller;
 
-import com.Library.Management.System.Library.Management.System.dto.*;
-import com.Library.Management.System.Library.Management.System.response.BookResponse;
-import com.Library.Management.System.Library.Management.System.service.BookService;
+import com.Library.Management.response.BookResponse;
+import com.Library.Management.service.BookService;
+import com.Library.Management.dto.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
